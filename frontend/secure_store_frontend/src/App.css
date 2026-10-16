@@ -1,0 +1,27 @@
+.health-page {
+  width: min(100%, 560px);
+  padding: 32px;
+  border: 1px solid #dce3ec;
+  border-radius: 16px;
+  background: white;
+}
+
+.health-page h1 { margin: 0 0 8px; }
+.health-page p { color: #526175; }
+.health-status { margin: 24px 0; padding: 16px; border-radius: 8px; }
+.loading { background: #eef2f7; }
+.connected { background: #e3f5eb; color: #14633c; }
+.error { background: #fff0ef; color: #9c2921; }
+
+button {
+  padding: 10px 18px;
+  font: inherit;
+  border: 0;
+  border-radius: 8px;
+  background: #234fc4;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled { opacity: 0.6; cursor: wait; }
+button:focus-visible { outline: 3px solid #719dff; outline-offset: 3px; }
